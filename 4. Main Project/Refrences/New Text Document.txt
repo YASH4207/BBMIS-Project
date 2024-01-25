@@ -1,0 +1,30 @@
+If Len(txtDonerName) = 0 Then
+MsgBox "Doner Name should not be empty", , "Doner Name"
+
+ElseIf Len(txtPhoneNumber) = 0 Then
+MsgBox "Doner Phone Number should not be empty", , "Doner Phone Number"
+
+ElseIf Len(txtDonerAge) = 0 Then
+MsgBox "Doner Age should not be empty", , "Doner Age"
+
+ElseIf Len(txtAdharNumber) = 0 Then
+MsgBox "Doner Adhar Number should not be empty", , "Doner Adhar Number"
+
+ElseIf Len(txtDonerAddress) = 0 Then
+MsgBox "Doner Address should not be empty", , "Doner Address"
+
+ElseIf Len(txtDonerBloodGroup) = 0 Then
+MsgBox "Doner Blood Group should not be empty", , "Doner Blood Group"
+
+ElseIf Len(txtDonersWeight) = 0 Then
+MsgBox "Doner Weight should not be empty", , "Doner Weight"
+
+ElseIf Len(txtDonerGender) = 0 Then
+MsgBox "Doner Gender should not be empty", , "Doner Gender"
+End If
+
+If IsNumeric(txtDonerName) = True Then
+MsgBox "Doner Nmae should contain Alphabate"
+txtDonerName.Text = ""
+txtDonerName.SetFocus
+End If

@@ -1,0 +1,2 @@
+KeyAscii >= 7 And (KeyAscii < 48) Or (KeyAscii > 57) Then
+KeyAscii = 0
